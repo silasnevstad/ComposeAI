@@ -16,6 +16,14 @@ Request body (required)
 }
 ```
 
+Response
+```
+{
+  "success": Boolean,
+  "response": "string",
+}
+```
+
 ## Installation
 
 To run the app locally, you'll need to have Python 3 and pip installed on your system. Clone the repository and navigate to the project directory in your terminal. Then, run the following commands to install the required dependencies:
