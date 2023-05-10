@@ -6,7 +6,8 @@ This is a Flask app for an AI writing assistant that uses OpenAI's GPT-4 to prov
 
 ## Usage
 
-* /buddy - ```{
+* /buddy - 
+```{
   "text": "string"
 }
 ```
