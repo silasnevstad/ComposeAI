@@ -1,4 +1,5 @@
-# AI Writing Assistant - @SilasNevstad
+# AI Writing Assistant
+# @SilasNevstad
 import openai
 import requests
 import tiktoken
@@ -50,7 +51,7 @@ def ai_assist(text):
     
     return response
     
-@app.route('/ai-assist', methods=['GET'])
+@app.route('/buddy', methods=['GET'])
 def writing_assistant():
     text = request.args.get('text')
     
