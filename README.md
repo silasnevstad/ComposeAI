@@ -7,7 +7,7 @@ This is a Flask app for an AI writing assistant that uses OpenAI's GPT-4 to prov
 ## Usage
 
 * /buddy
-Request body (required)
+- Request body (required)
 ```
 {
   "text": "string"
