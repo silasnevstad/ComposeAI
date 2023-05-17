@@ -2,4 +2,7 @@ openai
 requests
 tiktokapi
 flask
+flask-cors
 python-dotenv
+gunicorn
+tiktoken
