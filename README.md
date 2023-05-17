@@ -1,10 +1,13 @@
 # ComposeAI
 
-This is a Flask app for an AI writing assistant that uses OpenAI's GPT-4 to provide suggestions and context-appropriate phrases for a human partner writing text. The app is deployed on Heroku, and it listens for HTTP GET requests on the '/buddy' endpoint. The app expects a 'text' query parameter with the human partner's input.
+This is an api for an AI writing assistant that leverages GPT-4 to provide auto complete suggestions, refinements, and context-appropriate phrases for a human partner writing text. It also features text manipulation endpoints and a simple ask endpoint. The app is deployed on Heroku, and it listens for HTTP POST requests on the '/v1/buddy' endpoint. The app expects a 'text' query parameter with the human partner's input.
 
 ## Usage
 
-/buddy
+/v1/buddy
+/v1/formalize
+/v1/niceify
+/v1/ask
 
 
 Request body (required)
