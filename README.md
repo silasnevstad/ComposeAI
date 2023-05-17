@@ -19,7 +19,6 @@ Request body (required)
 Response
 ```
 {
-  "success": Boolean,
   "response": "string",
 }
 ```
@@ -35,8 +34,6 @@ You'll also need to set the OPENAI_API_KEY environment variable to your OpenAI A
 ```
 OPENAI_API_KEY=<your_api_key_here>
 ```
-
-
 
 
 ## Contributing
