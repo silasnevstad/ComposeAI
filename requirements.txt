@@ -6,3 +6,7 @@ flask-cors
 python-dotenv
 gunicorn
 tiktoken
+fastapi
+uvicorn
+pydantic
+python-multipart
