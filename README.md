@@ -1,4 +1,4 @@
-# ComposeAI
+# Buddy
 
 This is an api for an AI writing assistant that leverages GPT-4 to provide auto complete suggestions, refinements, and context-appropriate phrases for a human partner writing text. It also features text manipulation endpoints and a simple ask endpoint. The app is deployed on Heroku, and it listens for HTTP POST requests on the '/v1/buddy' endpoint. The app expects a 'text' query parameter with the human partner's input.
 
